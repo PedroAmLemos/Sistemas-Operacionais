@@ -1,0 +1,1 @@
+cmd_/home/pedroamlemos/SO/Kernel-Module/ch2/simple.mod := printf '%s\n'   simple.o | awk '!x[$$0]++ { print("/home/pedroamlemos/SO/Kernel-Module/ch2/"$$0) }' > /home/pedroamlemos/SO/Kernel-Module/ch2/simple.mod

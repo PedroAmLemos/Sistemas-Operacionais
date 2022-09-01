@@ -1,0 +1,1 @@
+cmd_/home/pedroamlemos/SO/Kernel-Module/ch2/modules.order := {   echo /home/pedroamlemos/SO/Kernel-Module/ch2/simple.ko; :; } | awk '!x[$$0]++' - > /home/pedroamlemos/SO/Kernel-Module/ch2/modules.order
